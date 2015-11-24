@@ -1,0 +1,317 @@
+/*USER STYLES */
+.recaptcha_input_area input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.recaptcha_input_area span.inputbox {
+    display: none;
+}
+form fieldset {
+    border-radius: 5px 5px 5px 5px;
+}
+
+form fieldset {
+    border: 1px solid #E5E5E5;
+    margin: 10px;
+    padding: 10px;
+}
+form dl.inline dt {
+    clear: both;
+    float: left;
+    text-align: left;
+    width: 30%;
+	margin-top:5px;
+}
+form dl.inline dt label {
+    margin-right: 12px;
+}
+
+form dt label, form dd label {
+	font-size:13px;
+}
+form dt {
+    margin-bottom: 2px;
+}
+form dl.inline dd {
+    float: left;
+    margin: 0 0 15px;
+    width: 68%;
+	font-size:14px;
+}
+
+form dd {
+    margin-bottom: 15px;
+	margin-left:0;
+}
+select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 28px;
+    position: absolute;
+	left:3px;    
+	width: 215px;
+}
+.formfieldsbg {
+	background: url("../img/pi_slicing.png") no-repeat scroll left -141px transparent;
+    float: left;
+    height: 29px;
+    width: 10px;
+}
+span.selectopt {
+	background: url("../img/pi_slicing.png") no-repeat scroll right -141px transparent;
+    color: #414444;
+    display: block;
+    font-size: 13px;
+    height: 23px;
+    left: 10px;
+    padding: 5px 30px 0 0;
+    position: absolute;
+	min-width: 180px;
+}
+form dd.twoselect span.selectopt{
+	min-width:75px;
+}
+form dd.twoselect select{
+	width:110px;
+}
+.credit_years{
+	position:absolute;
+	left:130px;
+}
+form dd.twoselect .credit_years span.selectopt{
+	min-width:50px;
+}
+form dd.twoselect .credit_years select{
+	width:85px;
+}
+form dd input[type=file] {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 28px;
+    position: absolute;
+	left:3px;
+}
+form dd .formfilebg {
+	background: url("../img/pi_slicing.png") no-repeat scroll right -180px transparent;
+    float: left;
+    height: 29px;
+    width: 90px;
+}
+form dd span.filetxt {
+	background: url("../img/pi_slicing.png") no-repeat scroll left -180px transparent;
+    color: #414444;
+    display: block;
+    float: left;
+    font-size: 13px;
+    height: 24px;
+    padding: 6px 10px 0;
+	width:130px;
+}
+form input[type="radio"], form input[type="checkbox"] {
+    vertical-align: top;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+	left:0px;
+	top:4px;
+	margin:0;
+}
+form div.checkbox{
+	position: relative;
+}
+form div.checkbox span{
+	background: url("../img/pi_slicing.png") no-repeat scroll left -598px transparent;
+	height: 19px;
+    width: 19px;    
+	position: relative;
+    top: 4px;
+	display: inline-block;
+}
+form div.checkbox span.checked{
+	background: url("../img/pi_slicing.png") no-repeat scroll -76px -598px transparent;
+}
+form div.radiobtns{
+	height: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+form div.paytype{
+	margin-bottom:0;
+}
+form div.radiobtns label{
+	left: 23px;
+    line-height: 17px;
+    position: absolute;
+    top: 6px;
+}
+form div.radiobtns span{
+	background: url("../img/pi_slicing.png") no-repeat scroll left -616px transparent;
+    display: inline-block;
+    height: 19px;
+    position: relative;
+    top: 5px;
+    width: 17px;
+}
+form div.radiobtns span.radiochecked{
+	background: url("../img/pi_slicing.png") no-repeat scroll -72px -616px transparent;
+}
+form span.inputbox{
+	background: url("../img/pi_slicing.png") no-repeat scroll left -100px transparent;
+	height:30px;
+	width:10px;
+	float:left;
+	display:block;
+}
+form input[type=text],form input[type=password]{
+	background: url("../img/pi_slicing.png") no-repeat scroll right -100px transparent;
+    border: medium none;
+    float: left;
+	height:20px;
+	padding:5px 10px 5px 0;
+	line-height:22px;
+	width:200px;
+	font-size:14px;
+	display:block;
+	outline:none; 
+}
+form textarea{
+	background: none repeat scroll 0 0 #FCFCFC;
+	border:1px solid #D5D5D5;
+	padding:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	font-size:14px;
+	overflow: auto; 
+	resize:none;
+	width:300px;
+	outline:none;
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;	
+    font: 13px "Droid Sans",sans-serif;
+	letter-spacing:1px;
+}
+form button[type=submit]{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    white-space: nowrap;
+}
+form button[type=submit] span.span{
+	background: url("../img/pi_slicing.png") no-repeat scroll left -222px transparent;
+	height:28px;
+	width:10px;
+	float:left;
+	display:block;
+}
+form button[type=submit] span.btn-text{
+	background: url("../img/pi_slicing.png") no-repeat scroll right -222px transparent;
+    border: medium none;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    outline: medium none;
+    padding: 7px 10px 0 0;
+}
+form input[type=submit]{
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-box-shadow: 0 0 10px 1px #5C8BEE inset, 0 1px 0 #1D2C4D, 0 0 0 #1F3053, 0 4px 3px 0 #111111;
+    -webkit-box-shadow: 0 0 10px 1px #5C8BEE inset, 0 1px 0 #1D2C4D, 0 0 0 #1F3053, 0 4px 3px 0 #111111;
+    box-shadow: 0 0 10px 1px #5C8BEE inset, 0 1px 0 #1D2C4D, 0 0 0 #1F3053, 0 4px 3px 0 #111111;
+    background: none repeat scroll 0 0 #1D6CB0;
+    border-color: #38538C #1F2D4D #151E33;
+    border-style: solid;
+    border-width: 1px;	
+	color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 0 -1px 1px #1E2D4D;
+    width: 75px;
+}
+form dd span.span{
+	background: url("../img/pi_slicing.png") no-repeat scroll left -222px transparent;
+	height:28px;
+	width:10px;
+	float:left;
+	display:block;
+}
+form dd span.btn-text{
+	background: url("../img/pi_slicing.png") no-repeat scroll right -222px transparent;
+    border: medium none;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 24px;
+    outline: medium none;
+    padding: 3px 10px 0 0;
+}
+.actions li{
+	position:relative;
+}
+.editbtn{
+	background: url("../img/pi_slicing.png") no-repeat scroll right -353px transparent;
+	color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 13px;
+    left: 10px;
+    padding: 4px 15px 3px 5px;
+    position: relative;
+	margin-right:15px;
+}
+.editbtn span{
+	background: url("../img/pi_slicing.png") no-repeat scroll left -353px transparent;
+	height: 20px;
+    left: -10px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+	display:block;
+}
+.deletebtn{
+	background: url("../img/pi_slicing.png") no-repeat scroll right -222px transparent;
+	color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 13px;
+    left: 10px;
+    padding: 2px 15px 4px 5px;
+    position: relative;
+	margin-right:15px;
+}
+.deletebtn span{
+	background: url("../img/pi_slicing.png") no-repeat scroll left -222px transparent;
+	height: 20px;
+    left: -10px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+	display:block;
+}
+.searchform{
+	background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #ECEDED;
+	border-bottom:none;
+    width: 546px;
+	float:left;
+}
+.searchfo{
+	margin-left:90px;
+	background:#fff;
+}

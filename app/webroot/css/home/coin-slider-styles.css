@@ -1,0 +1,47 @@
+.coin-slider {
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+}
+.coin-slider a {
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+.cs-buttons {
+	font-size: 0px;
+	padding: 10px;
+	float: left;
+}
+.cs-buttons a {
+	margin-left: 5px;
+	height: 14px;
+	width: 14px;
+	float: left;
+	/*border: 1px solid #B8C4CF;*/
+	background:url(../img/slide-button_1.png) no-repeat;
+	color: #B8C4CF;
+	text-indent: -1000px;
+}
+.cs-buttons a.cs-active {
+	background:url(../img/slide-button.png) no-repeat;
+	color: #FFFFFF;
+}
+.cs-title {
+	width: 650px;
+	padding: 10px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.cs-prev, .cs-next {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 0px 10px;
+}
+.full-cs-button {
+	background: none repeat scroll 0 0 #000000;
+	bottom: 0;
+	height: 32px;
+	position: relative;
+	width: 100%;
+}
